@@ -7,16 +7,16 @@ public class facto {
         int num;
         long factorial;
         factorial = 1;
-        System.out.println("Por favot ingresa el número del cuál quieras su factorial: ");
+        System.out.println("Please enter the number for which you want to find the factorial: ");
         num = scanner.nextInt();
         if (num == 0 || num == 1) {
-            System.out.println("El factorial de "+num+" es 1.");
+            System.out.println("The factorial of "+num+" is 1.");
         }
         else {
             for (int i = 1; i <= num; i++) {
                 factorial*=i;
             }
-            System.out.println("El factorial de "+num+" es "+factorial+".");
+            System.out.println("The factorial of "+num+" is "+factorial+".");
             scanner.close();
         }
 
